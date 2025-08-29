@@ -1672,9 +1672,9 @@ text-transform: capitalize;
 
          .hero {
           background: url("/images/main-chair.png") no-repeat center top;
-          height: 198vh;
+          height: 110vh;
           width: 100%;
-          background-size: contain;
+          background-size: cover;
        }
 
        .logo{
@@ -1944,6 +1944,7 @@ border-radius: 50%;
     flex-direction: column;
     /* justify-content: center; */
     padding: 0  220px;
+    /* border: 2px solid red; */
   }
   
 .choosing-content{
@@ -2712,7 +2713,7 @@ border-radius: 50%;
 
          .hero {
           background: url("/images/main-chair.png") no-repeat center top;
-          height: 100vh;
+          height: 90vh;
           width: 100%;
           background-size: contain;
        }
