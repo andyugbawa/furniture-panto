@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .hero {
@@ -391,17 +391,28 @@ border-radius: 50%;
 
 
 
+.choosing-container {
+   display: flex;
+   flex-wrap: wrap;  /* allows items to wrap instead of overflowing */
+   gap: 40px;        /* smaller gap for smaller screens */
+   margin: 198px 0;
+   padding: 0 20px;  /* give breathing space inside viewport */
+   box-sizing: border-box;
+}
 
+
+
+/* 
 .choosing-container{
    margin: 198px 0;
   display: flex;
   gap:80px;
   padding: 0 0 0 0px;
-  /* height: 100vh; */
-  /* background: red; */
+  height: 100vh;
+  background: red;
 
   
-}
+} */
 
 
 .choosing-content{
@@ -409,6 +420,8 @@ border-radius: 50%;
   height: 190px;
   /* background: green; */
    padding: 20px 0 0 50px;
+   flex: 1 1 250px;   /* flexible width, min 250px */
+   max-width: 100%; /* won’t get too wide */
 }
 
 
@@ -430,6 +443,8 @@ color:black;
   width:242px;
   height: 104px;
   /* background: red; */
+  flex: 1 1 250px;   /* flexible width, min 250px */
+   max-width: 100%; /* won’t get too wide */
 }
 .luxury_content{
   width: 172;
@@ -480,6 +495,8 @@ color:black;
   width:242px;
   height: 104px;
   /* background: yellow; */
+  flex: 1 1 250px;   /* flexible width, min 250px */
+   max-width:100%; /* won’t get too wide */
 }
 
 .affordable_content{
@@ -538,6 +555,8 @@ color:black;
   width:242px;
   height: 104px;
   /* background: blue; */
+  flex: 1 1 250px;   /* flexible width, min 250px */
+   max-width: 100%; /* won’t get too wide */
 }
 .choices_content{
 width: 156;
