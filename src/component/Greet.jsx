@@ -103,63 +103,70 @@ function Greet() {
 
     </div>
 
-        <div class="choosing-container">
+    <div class="choosing-container">
 
 
     <div class="choosing-content">
      <h2 class="choosing">Why Choosing Us</h2>
   </div> 
-  <div class="choosing-content1">
-     <div class="luxury_content">
-       <h2 class="luxury">Luxury facilities</h2>
-     </div>
-     <div class="luxury_para">
-          <p class="luxury_text">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</p>
-     </div>
-      <div class="info-content">
-         <div class="info_lay">
-            <p class="info-para">More Info</p>
-            <div class="icon-arrow">
-                 <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
-         </div>
-      </div>
-  </div> 
-   <div class="choosing-content2">
-     <div class="affordable_content">
-       <h2 class="affordable">Affordable Price</h2>
-      </div>
-      <div class="affordable_para">
-        <p class="affordable_text">You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.</p>
-      </div>
-       <div class="info-content">
-         <div class="info_lay">
-            <p class="info-para">More Info</p>
-            <div class="icon-arrow">
-                 <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
-         </div>
-      </div>
-  </div> 
-   <div class="choosing-content3">
-      <div class="choices_content">
-       <h2 class="choices">Many Choices</h2>
-      </div> 
-    <div class="choices_para">
-        <p class="choices_text">We provide many unique work space choices so that you can choose the workspace to your liking.</p>
-      </div>
-       <div class="info-content">
-         <div class="info_lay">
-            <p class="info-para">More Info</p>
-            <div class="icon-arrow">
-                 <i class="fa-solid fa-arrow-right-long"></i>
-            </div>
-         </div>
-      </div>
+  
+         
 
-  </div>  
+        <div class="choosing-content1">
+          <div class="luxury_content">
+            <h2 class="luxury">Luxury facilities</h2>
+          </div>
+          <div class="luxury_para">
+                <p class="luxury_text">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</p>
+          </div>
+            <div class="info-content">
+              <div class="info_lay">
+                  <p class="info-para">More Info</p>
+                  <div class="icon-arrow">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+              </div>
+            </div>
+        </div> 
+        <div class="choosing-content2">
+          <div class="affordable_content">
+            <h2 class="affordable">Affordable Price</h2>
+            </div>
+            <div class="affordable_para">
+              <p class="affordable_text">You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.</p>
+            </div>
+            <div class="info-content">
+              <div class="info_lay">
+                  <p class="info-para">More Info</p>
+                  <div class="icon-arrow">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+              </div>
+            </div>
+        </div> 
+        <div class="choosing-content3">
+            <div class="choices_content">
+            <h2 class="choices">Many Choices</h2>
+            </div> 
+          <div class="choices_para">
+              <p class="choices_text">We provide many unique work space choices so that you can choose the workspace to your liking.</p>
+            </div>
+            <div class="info-content">
+              <div class="info_lay">
+                  <p class="info-para">More Info</p>
+                  <div class="icon-arrow">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+              </div>
+            </div>
 
-     </div>  
+        </div>  
+        
+         
+
+     </div>
+
+
 
       </div>
 

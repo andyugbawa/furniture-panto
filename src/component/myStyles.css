@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+}
 
 .hero {
   height: 180vh;
@@ -44,7 +47,7 @@ nav ul li a {
 .icon-shopping{
    display: flex;
    position: relative; 
-   left:68px;
+   left:-10px;
    top:15px;
 }
 
@@ -400,6 +403,7 @@ border-radius: 50%;
   
 }
 
+
 .choosing-content{
   width:300px;
   height: 190px;
@@ -431,8 +435,10 @@ color:black;
   width: 172;
   height: 30;
  opacity: 0.9;
-  top: 1204px;
-  left: 452px;
+  /* top: 1204px; */
+  /* left: 452px; */
+  top: auto;
+  left: auto;
   /* background-color: aquamarine; */
 
 }
@@ -451,8 +457,10 @@ color:black;
 width: 248px;
 height: 90px;
 opacity: 0.8;
-top: 1254px;
-left: 452px;
+/* top: 1254px; */
+/* left: 452px; */
+top: auto;
+left: auto;
 /* background: #e58411; */
 color:black;
 
@@ -479,8 +487,10 @@ width: 178px;
 height: 30px;
 /* angle: 0 deg; */
 opacity: 0.9;
-top: 1204px;
-left: 764px;
+/* top: 1204px; */
+/* left: 764px; */
+top: auto;
+left: auto;
 /* background: greenyellow; */
 
 }
@@ -502,8 +512,10 @@ width: 284px;
 height: 90px;
 angle: 0 deg;
 opacity: 0.8;
-top: 1254px;
-left: 764px;
+/* top: 1254px; */
+/* left: 764px; */
+top: auto;
+left: auto;
 color:black;
 
 
@@ -530,8 +542,10 @@ color:black;
 .choices_content{
 width: 156;
 height: 30;
-top: 1204px;
-left: 1076px;
+/* top: 1204px; */
+/* left: 1076px; */
+top: auto;
+left: auto;
 /* angle: 0 deg; */
 opacity: 0.9;
 /* background: brown; */
@@ -551,8 +565,10 @@ color:black;
 .choices_para{
 width: 284px;
 height: 90px;
-top: 1254px;
-left: 1076px;
+/* top: 1254px; */
+/* left: 1076px; */
+top: auto;
+left: auto;
 /* angle: 0 deg; */
 opacity: 0.8;
 /* background: gray; */
@@ -622,6 +638,12 @@ border-width: 1px;
 
 
 }
+
+
+
+
+
+
 
 
 .product-container{
@@ -947,7 +969,7 @@ span{
  .circle-arrow_left{
   position: absolute;
   top:240px;
-  left:-41px;
+  left:-51px;
   z-index: 1;
  }
 
