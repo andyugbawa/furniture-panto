@@ -207,6 +207,8 @@ left: 84px;
   position: relative;
   
 }
+
+
 .bubble-content{
     position: absolute;
     right: 1022px;
@@ -2857,13 +2859,13 @@ border-radius: 50%;
 }
 
    
-  
+/*   
   .card-flow {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     height: auto;
-  }
+  } */
 
    
 .card-content{
@@ -3032,6 +3034,315 @@ border-radius: 50%;
 
 
   }
+
+
+  @media (max-width:425px) {
+    
+        html, body {
+          max-width: 100%;
+          overflow-x: hidden;
+        }
+        
+  .main-text {
+    width: 95%;
+    transform: translateX(38%); /* reduce shift */
+    font-size: 13px;
+    /* background: red; */
+  }
+
+  .interior-head {
+    top: -210px;
+    left: -220px;
+    width: 150px;
+    height: 30px;
+  }
+  .interior {
+    font-size: 13px;
+  }
+
+  .room-paragraph {
+    bottom: 140px;
+    margin-left: -280px;
+    width: 250px;
+  }
+  .para_room {
+    font-size: 10px;
+  }
+
+  /* Search box */
+  .search-container {
+    width: 150px;
+    left: -350px;
+    top: -139px;
+    padding: 1px 6px;
+  }
+  .search-btn {
+    width: 30px;
+    height: 30px;
+    left: -75px;
+    top: -15px;
+  }
+
+
+  
+.bubble-content{
+    position: absolute;
+    right: 280px;
+    top:-160px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:112px;
+    height: 137.6px;
+    /* background: red; */
+}
+
+
+  
+
+.bubble_circle{
+position: relative;
+margin-top: 50px; 
+top:-72px;
+left:75px;
+width: 56px;
+height: 56px;
+/* background-color: green; */
+
+}
+
+   
+.transperant_circle{
+position: relative;
+width: 32px;
+height: 32px;
+ top: 20px;
+left: 14px;
+/* background: red; */
+
+}
+
+
+   
+.transperant_circle1{
+  position: relative;
+  width: 37px;
+  height: 37px;
+  top: -110px;
+  left: 230px;
+  /* background: orange; */
+ 
+
+}
+
+   
+ .transperant_circle2{
+  position: relative;
+  width: 37px;
+  height: 37px;
+  top: -135px;
+  left: 395px;
+  /* background: yellow; */
+ 
+
+}
+
+
+
+
+  }
+
+
+  /* Mobile View (max-width: 375px) */
+@media (max-width: 375px) {
+  
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Logo & Nav */
+  .logo {
+    font-size: 13px;
+  }
+  .navbar {
+    padding: 0px 5%;
+    height: 4em;
+  }
+  nav ul li a {
+    font-size: 7px;
+    padding: 0 6px;
+  }
+
+  /* Hero section */
+  .hero {
+    height: 75vh; 
+    background-size: contain ; /* tighter fit */
+  }
+
+  .main-text {
+    width: 95%;
+    transform: translateX(45%); /* reduce shift */
+    font-size: 13px;
+    /* background: red; */
+  }
+
+  .interior-head {
+    top: -210px;
+    left: -220px;
+    width: 150px;
+    height: 30px;
+  }
+  .interior {
+    font-size: 13px;
+  }
+
+  .room-paragraph {
+    bottom: 140px;
+    margin-left: -280px;
+    width: 250px;
+  }
+  .para_room {
+    font-size: 10px;
+  }
+
+  /* Search box */
+  .search-container {
+    width: 150px;
+    left: -350px;
+    top: -139px;
+    padding: 1px 6px;
+  }
+  .search-btn {
+    width: 30px;
+    height: 30px;
+    left: -75px;
+    top: -15px;
+  }
+
+
+  
+.bubble-content{
+    position: absolute;
+    right: 250px;
+    top:-160px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:112px;
+    height: 137.6px;
+    /* background: red; */
+}
+
+
+  
+
+.bubble_circle{
+position: relative;
+margin-top: 50px; 
+top:-70px;
+left:60px;
+width: 56px;
+height: 56px;
+/* background-color: green; */
+
+}
+
+   
+.transperant_circle{
+position: relative;
+width: 32px;
+height: 32px;
+ top: 10px;
+left: 14px;
+/* background: red; */
+
+}
+
+
+   
+.transperant_circle1{
+  position: relative;
+  width: 37px;
+  height: 37px;
+  top: -120px;
+  left: 203px;
+  /* background: orange; */
+ 
+
+}
+
+   
+ .transperant_circle2{
+  position: relative;
+  width: 37px;
+  height: 37px;
+  top: -140px;
+  left: 350px;
+  /* background: yellow; */
+ 
+
+}
+
+
+
+
+
+  /* Cards */
+  .card {
+    width: 95%;
+    height: auto; /* let content decide */
+  }
+  .card-content {
+    padding: 20px 10px;
+    height: auto;
+  }
+
+  /* Choosing Section */
+  .choosing-container {
+    padding: 0 20px;
+  }
+  .choosing-content,
+  .choosing-content1,
+  .choosing-content2,
+  .choosing-content3 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  /* Images */
+  .single-image,
+  .double-image,
+  .group-chair,
+  .box-image1,
+  .box-image2,
+  .box-image3 {
+    max-width: 280px;
+  }
+
+  /* Text adjustments */
+  .provision {
+    font-size: 22px;
+  }
+  .result,
+  .design {
+    font-size: 14px;
+  }
+  .experiences {
+    font-size: 12px;
+  }
+
+  /* Testimonial section */
+  .general-testimonial {
+    margin-top: 40px;
+    height: 480vh;
+  }
+
+}
+
 
 
 
