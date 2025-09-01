@@ -419,6 +419,7 @@ border-radius: 50%;
 } */
 
 
+
 .choosing-content{
   width:300px;
   height: 190px;
@@ -3304,7 +3305,7 @@ left: 14px;
   .choosing-container {
     padding: 0 20px;
   }
-  .choosing-content,
+  
   .choosing-content1,
   .choosing-content2,
   .choosing-content3 {
@@ -3312,6 +3313,16 @@ left: 14px;
     height: auto;
     padding: 10px;
   }
+
+
+.choosing-content{
+  width:300px;
+  height: 100px;
+  /* background: green; */
+   padding: 20px 0 0 50px;
+   flex: 1 1 250px;   /* flexible width, min 250px */
+   max-width: 100%; /* won’t get too wide */
+}
 
   /* Images */
   .single-image,
