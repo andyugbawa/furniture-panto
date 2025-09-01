@@ -3316,10 +3316,10 @@ left: 14px;
 
 
 .choosing-content{
-  width:300px;
+  width:250px;
   height: 100px;
   /* background: green; */
-   padding: 20px 0 0 50px;
+   padding: 20px 0 0 0px;
    flex: 1 1 250px;   /* flexible width, min 250px */
    max-width: 100%; /* won’t get too wide */
 }
